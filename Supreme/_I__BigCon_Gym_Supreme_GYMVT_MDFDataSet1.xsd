@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_I__BigCon_Gym_Supreme_GYMVT_MDFDataSet1" targetNamespace="http://tempuri.org/_I__BigCon_Gym_Supreme_GYMVT_MDFDataSet1.xsd" xmlns:mstns="http://tempuri.org/_I__BigCon_Gym_Supreme_GYMVT_MDFDataSet1.xsd" xmlns="http://tempuri.org/_I__BigCon_Gym_Supreme_GYMVT_MDFDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DataGrid" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DataGrid (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Supreme.Properties.Settings.GlobalReference.Default.DataGrid" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GymTableAdapter" GeneratorDataComponentClassName="GymTableAdapter" Name="Gym" UserDataComponentName="GymTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataGrid (Settings)" DbObjectName="[I:\BigCon\Gym\Supreme\GYMVT.MDF].dbo.Gym" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT omuz, gogus, kol, bel, quad, program FROM dbo.Gym</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="omuz" DataSetColumn="omuz" />
+              <Mapping SourceColumn="gogus" DataSetColumn="gogus" />
+              <Mapping SourceColumn="kol" DataSetColumn="kol" />
+              <Mapping SourceColumn="bel" DataSetColumn="bel" />
+              <Mapping SourceColumn="quad" DataSetColumn="quad" />
+              <Mapping SourceColumn="program" DataSetColumn="program" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_I__BigCon_Gym_Supreme_GYMVT_MDFDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="_I__BigCon_Gym_Supreme_GYMVT_MDFDataSet1" msprop:Generator_DataSetName="_I__BigCon_Gym_Supreme_GYMVT_MDFDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Gym" msprop:Generator_RowEvHandlerName="GymRowChangeEventHandler" msprop:Generator_RowDeletedName="GymRowDeleted" msprop:Generator_RowDeletingName="GymRowDeleting" msprop:Generator_RowEvArgName="GymRowChangeEvent" msprop:Generator_TablePropName="Gym" msprop:Generator_RowChangedName="GymRowChanged" msprop:Generator_RowChangingName="GymRowChanging" msprop:Generator_TableClassName="GymDataTable" msprop:Generator_RowClassName="GymRow" msprop:Generator_TableVarName="tableGym" msprop:Generator_UserTableName="Gym">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="omuz" msprop:Generator_ColumnPropNameInRow="omuz" msprop:Generator_ColumnPropNameInTable="omuzColumn" msprop:Generator_ColumnVarNameInTable="columnomuz" msprop:Generator_UserColumnName="omuz" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gogus" msprop:Generator_ColumnPropNameInRow="gogus" msprop:Generator_ColumnPropNameInTable="gogusColumn" msprop:Generator_ColumnVarNameInTable="columngogus" msprop:Generator_UserColumnName="gogus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kol" msprop:Generator_ColumnPropNameInRow="kol" msprop:Generator_ColumnPropNameInTable="kolColumn" msprop:Generator_ColumnVarNameInTable="columnkol" msprop:Generator_UserColumnName="kol" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bel" msprop:Generator_ColumnPropNameInRow="bel" msprop:Generator_ColumnPropNameInTable="belColumn" msprop:Generator_ColumnVarNameInTable="columnbel" msprop:Generator_UserColumnName="bel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quad" msprop:Generator_ColumnPropNameInRow="quad" msprop:Generator_ColumnPropNameInTable="quadColumn" msprop:Generator_ColumnVarNameInTable="columnquad" msprop:Generator_UserColumnName="quad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="program" msprop:Generator_ColumnPropNameInRow="program" msprop:Generator_ColumnPropNameInTable="programColumn" msprop:Generator_ColumnVarNameInTable="columnprogram" msprop:Generator_UserColumnName="program" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
